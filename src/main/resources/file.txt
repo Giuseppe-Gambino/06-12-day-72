@@ -1,0 +1,3 @@
+megazine e book sono relazionate con prestito con un onetomany, perche ci possono essere prestiti con molteplici elementi
+
+user e prestiti hanno una relazione onetomany perche un utente puo avere molteplici presiti
