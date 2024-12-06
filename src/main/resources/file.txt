@@ -1,3 +1,15 @@
-megazine e book sono relazionate con prestito con un onetomany, perche ci possono essere prestiti con molteplici elementi
+Relazione tra User e Prestito:
 
-user e prestiti hanno una relazione onetomany perche un utente puo avere molteplici presiti
+Tipo di relazione: Uno-a-molti
+Descrizione: Un utente (User) può avere più prestiti (Prestito), ma ogni prestito è associato a un solo utente.
+Esempio: Un utente può prendere in prestito diversi libri o riviste nel corso del tempo.
+Relazione tra Book e Prestito:
+
+Tipo di relazione: Uno-a-molti
+Descrizione: Un libro (Book) può essere prestato più volte a utenti diversi, ma ogni prestito è legato a un singolo libro.
+Esempio: Un libro può essere prestato a diversi utenti in momenti diversi.
+Relazione tra Megazine e Prestito:
+
+Tipo di relazione: Uno-a-molti
+Descrizione: Una rivista (Megazine) può essere prestata più volte, ma ogni prestito è associato a una sola rivista.
+Esempio: Una rivista può essere prestata a diversi utenti in momenti diversi.
