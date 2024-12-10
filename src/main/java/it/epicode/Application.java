@@ -118,7 +118,7 @@ public class Application {
 
 
         System.out.println("Inserisci titolo: ");
-        book.setTitolo(scanner.nextLine());
+        book.setTitolo(scanner.next());
 
         System.out.println("Inserisci anno di pubblicazione: ");
         book.setAnnoDiPublicazione(scanner.nextInt());

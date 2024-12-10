@@ -26,13 +26,12 @@ public class Element {
 
     @Column(name = "titolo")
     private String titolo;
-
+    
     @Column(name = "anno_di_publicazione")
     private Integer annoDiPublicazione;
 
     @Column(name = "numero_di_pagine")
     private Integer numeroDiPagine;
-
 
 
 }
